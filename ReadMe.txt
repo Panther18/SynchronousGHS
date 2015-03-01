@@ -7,23 +7,10 @@
  Lab Name- Open CS LAB 1
  Compiler- JRE 1.7_60
 
-Files Enclosed-
-	1. Sources files-
-		a. FloodMax.java
-		b. Master.java
-		c. Process.java
-	2. FloodMax.jar
-	3. ReadMe.txt
-	4. Input - output
-		a. SampleInput_8_Process - SampleOutput_8_Process
-		b. SampleInput_3_Process - SampleOutput_3_Process
-
-How to run the program?
-	1. Unzip the file
-	2. Invoke Command prompt
-	3. Set the path to locate the file unzipped
-	4. Run the following command (without quotes)-
-		" java -jar FloodMax.jar "
+This project implements the Flood Max algorithms with all the communication between several nodes happening in a synhronous
+manner. This projects has an extension to the Flood Max algorithm in forming the spannin tree during the process. This uses
+concepts of broadcast and converge cast in every time clock until termination.
+More details on Flood Max algorithm can be found at: http://www.utdallas.edu/~venky/dist/ch4.pdf
  
 Other details-
   How to give an Input?
